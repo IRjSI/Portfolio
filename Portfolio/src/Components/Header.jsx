@@ -94,26 +94,26 @@ export default function Example() {
             <div className="-my-6 divide-y divide-gray-100/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-gray-50"
+                  href="#home"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#172554]"
                 >
                   Home
                 </a>
                 <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-gray-50"
+                  href="#about"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#172554]"
                 >
                   About
                 </a>
                 <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-gray-50"
+                  href="#projects"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#172554]"
                 >
                   Projects
                 </a>
                 <a
-                  href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-gray-50"
+                  href="#contact"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#172554]"
                 >
                   Contact
                 </a>
