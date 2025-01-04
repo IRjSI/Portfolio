@@ -2,9 +2,9 @@ import React from 'react'
 
 function Block({name}) {
   return (
-    <div className='text-center'>
-      <div className='w-full min-w-[100px] bg-blue-800 h-full min-h-[80px] rounded-md hover:bg-blue-700 text-white text-center p-2'>
-          <p className='text-xl'>{name}</p>
+    <div className=''>
+      <div className='w-full bg-blue-800 h-full min-h-[100px] rounded-md hover:bg-blue-700 text-white p-2 shadow-blue-900 shadow-2xl flex justify-center items-center'>
+          <p className='text-xl '>{name}</p>
       </div>
     </div>
   )

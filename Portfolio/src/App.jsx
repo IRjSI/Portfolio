@@ -10,7 +10,7 @@ import { Outlet } from 'react-router'
 function App() {
 
   return (
-    <div className='p-7  font-montserrat'>
+    <div className='p-4 font-mono'>
       <Header />
       {/* <Outlet /> */}
       <Home />

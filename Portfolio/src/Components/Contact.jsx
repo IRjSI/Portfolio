@@ -13,7 +13,7 @@ function Contact() {
   return (
     <>
     <div id="contact" className='p-4'>
-      <p className='text-yellow-300 text-5xl text-center m-8 font-dancing'>Contact </p>
+      <p className='text-yellow-300 text-5xl text-center m-8 font-montserrat'>Contact </p>
 
       {/* <form className='flex flex-col justify-center items-center gap-7'>
 
@@ -35,13 +35,13 @@ function Contact() {
     <ul className='text-white flex justify-center gap-4'>
       <li className='flex items-center gap-2'>
         <a href="https://github.com/IRjSI" target="_blank" className="flex items-center gap-2">
-          <img className='w-10 hover:animate-spin' src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" />
+          <img className='w-10 hover:animate-spin shadow-blue-800 shadow-all-sides l rounded-[50%]' src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" />
           GitHub
         </a>
       </li>
       <li className='flex items-center gap-2'>
         <a href="https://x.com/_RjS_0" target="_blank" className="flex items-center gap-2">
-          <img className='w-10 hover:animate-spin' src="https://freepnglogo.com/images/all_img/1691832581twitter-x-icon-png.png" alt="Twitter icon" />
+          <img className='w-10 shadow-blue-800 shadow-all-sides rounded-[50%] hover:animate-spin' src="https://freepnglogo.com/images/all_img/1691832581twitter-x-icon-png.png" alt="Twitter icon" />
           Twitter
         </a>
       </li>
