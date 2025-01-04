@@ -39,11 +39,11 @@ export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-blue-900">
+    <header className="sticky top-0 backdrop-blur-sm">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
-        <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">My Portfolio</span>
+        <div className="flex lg:flex-1 text-white">
+          <a href="#" className="p-1.5 animate-fadeIn opacity-100 hover:opacity-50 transition-all duration-500">
+            <span className="">Portfolio</span>
             
           </a>
         </div>
@@ -59,16 +59,16 @@ export default function Example() {
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
 
-          <a href="#home" className="text-sm/6 font-semibold text-gray-200">
+          <a href="#home" className="text-sm/6 font-semibold text-gray-200 hover:text-blue-300">
             Home
           </a>
-          <a href="#about" className="text-sm/6 font-semibold text-gray-200">
+          <a href="#about" className="text-sm/6 font-semibold text-gray-200 hover:text-blue-300">
             About
           </a>
-          <a href="#projects" className="text-sm/6 font-semibold text-gray-200">
+          <a href="#projects" className="text-sm/6 font-semibold text-gray-200 hover:text-blue-300">
             Projects
           </a>
-          <a href="#contact" className="text-sm/6 font-semibold text-gray-200">
+          <a href="#contact" className="text-sm/6 font-semibold text-gray-200 hover:text-blue-300">
             Contact
           </a>
         </PopoverGroup>

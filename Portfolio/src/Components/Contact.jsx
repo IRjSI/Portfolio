@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Spline from './Spline';
 
 function Contact() {
   const [value,setValue] = useState('Send')
@@ -10,14 +11,15 @@ function Contact() {
 
   // },[value])
   return (
+    <>
     <div id="contact" className='p-4'>
       <p className='text-yellow-300 text-5xl text-center m-8 font-dancing'>Contact </p>
 
-      <form className='flex flex-col justify-center items-center gap-7'>
+      {/* <form className='flex flex-col justify-center items-center gap-7'>
 
-        <input type="email" placeholder='Enter your Email' className='text-white bg-[#101b3c] rounded-sm border-none p-1 outline-none w-[300px]' />
+        <input type="email" placeholder='Enter your Email' className='text-white bg-[#101b3c] rounded-sm border-none p-2 outline-none w-[300px] sm:w-[500px] sm:h-[39px]' />
 
-        <textarea placeholder='Message...' className='text-white bg-[#101b3c] rounded-sm border-none p-1 outline-none w-[300px] h-[100px]' />
+        <textarea placeholder='Message...' className='text-white bg-[#101b3c] rounded-sm border-none p-2 outline-none w-[300px] h-[100px] sm:w-[500px] sm:h-[150px]' />
 
         <button onClick={clicked} type='submit' className="relative inline-flex h-12 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
 
@@ -28,9 +30,25 @@ function Contact() {
           </span>
 
         </button>
+      </form> */}
 
-      </form>
+    <ul className='text-white flex justify-center gap-4'>
+      <li className='flex items-center gap-2'>
+        <a href="https://github.com/IRjSI" target="_blank" className="flex items-center gap-2">
+          <img className='w-10 hover:animate-spin' src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" />
+          GitHub
+        </a>
+      </li>
+      <li className='flex items-center gap-2'>
+        <a href="https://x.com/_RjS_0" target="_blank" className="flex items-center gap-2">
+          <img className='w-10 hover:animate-spin' src="https://freepnglogo.com/images/all_img/1691832581twitter-x-icon-png.png" alt="Twitter icon" />
+          Twitter
+        </a>
+      </li>
+    </ul>
+
     </div>
+    </>
   )
 }
 
