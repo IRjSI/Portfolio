@@ -2,13 +2,15 @@
 export default {
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,tsx}",
   ],
   theme: {
     extend: {
       fontFamily: {
-        dancing: ['Dancing Script', 'cursive', 'EB Garamond',],
+        dancing: ['Dancing Script', 'cursive', 'EB Garamond'],
         montserrat: ['Montserrat'],
+        poppins: ['Poppins'],
+        raleway: ['Raleway'],
       },
       boxShadow: {
         'all-sides': '0 2px 20px rgba(0, 0, 0, 0.1), 0 2px 30px rgba(0, 0, 0, 0.1)',
@@ -18,6 +20,7 @@ export default {
       },
       animation: {
         'font-smooth': 'fontChange 1s ease-in-out',
+        aurora: "aurora 60s linear infinite",
       },
       keyframes: {
         fontChange: {
@@ -26,11 +29,20 @@ export default {
           '50%': { fontFamily: 'Montserrat, monospace' },
           '100%': { fontFamily: 'Dancing Script, sans-serif' },
         },
-      }
-    }
+        aurora: {
+          from: {
+            backgroundPosition: "50% 50%, 50% 50%",
+          },
+          to: {
+            backgroundPosition: "350% 50%, 350% 50%",
+          },
+        },
+      },
+    },
   },
   plugins: [
-    // require('tailwindcss-textshadow') // Add this plugin
+    // Uncomment the next line if you need the `tailwindcss-textshadow` plugin
+    // require('tailwindcss-textshadow'),
   ],
-}
+};
 

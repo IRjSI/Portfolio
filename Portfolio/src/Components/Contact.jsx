@@ -13,7 +13,7 @@ function Contact() {
   return (
     <>
     <div id="contact" className='p-4'>
-      <p className='text-yellow-300 text-5xl text-center m-8 font-montserrat'>Contact </p>
+      <p className='text-yellow-300 text-5xl text-center m-8 font-raleway mb-20 hover:underline transition-all'>Contact </p>
 
       {/* <form className='flex flex-col justify-center items-center gap-7'>
 
@@ -32,7 +32,7 @@ function Contact() {
         </button>
       </form> */}
 
-    <ul className='text-white flex justify-center gap-4'>
+    <ul className='text-white flex justify-center gap-24'>
       <li className='flex items-center gap-2'>
         <a href="https://github.com/IRjSI" target="_blank" className="flex items-center gap-2">
           <img className='w-10 hover:animate-spin shadow-blue-800 shadow-all-sides l rounded-[50%]' src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub icon" />

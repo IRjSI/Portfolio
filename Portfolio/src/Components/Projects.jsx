@@ -4,7 +4,7 @@ import Block from './Block';
 function Projects() {
   return (
     <div id="projects" className="p-4">
-      <p className="text-yellow-300 text-5xl text-center font-montserrat m-8">
+      <p className="text-yellow-300 text-5xl text-center font-raleway m-8">
         Projects
       </p>
       
@@ -12,7 +12,7 @@ function Projects() {
         <Block name={'Random Quotes Generator'} />
         <Block name={'Clicks Per Second'} />
         <Block name={'Weather App'} />
-        <Block name={'Todo App'} />
+        <Block name={'To-Do App'} />
         <Block name={'Guess the Number'} />
         <Block name={'Image Slider'} />
       </div>

@@ -3,7 +3,7 @@ import React from 'react';
 function About() {
   return (
     <section id="about" className="flex flex-col justify-center p-4" aria-label="About Me">
-      <h1 className="font-montserrat text-yellow-300 text-5xl text-center m-8">
+      <h1 className="font-raleway text-yellow-300 text-5xl text-center m-8">
         About Me
       </h1>
       <div className="text-white text-xl sm:text-2xl gap-5 text-center flex flex-col justify-center p-4">
