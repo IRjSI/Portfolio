@@ -15,7 +15,8 @@ function Home() {
         <p className="flex flex-wrap justify-center items-center lg:justify-start text-white">
           Aspiring&nbsp;
           <span className="text-yellow-300 text-5xl lg:text-6xl hover:text-yellow-400 hover:animate-pulse">
-            Web Developer
+            
+          Web Developer
           </span>
         </p>
       </div>
