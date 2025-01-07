@@ -21,15 +21,15 @@ function About() {
           and other technologies.
         </div>
         <div className='font-dancing'>.....</div>
-        <ul className="bg-gray-50 bg-opacity-10 rounded-md max-w-[800px] mx-auto  sm:text-xl lg:text-xl shadow-2xl shadow-blue-600 p-8">
+        <ul className="bg-gray-50 hover:shadow-blue-700 bg-opacity-10 rounded-md max-w-[800px] mx-auto  sm:text-xl lg:text-xl shadow-2xl shadow-blue-600 p-8 transition-all hover:transition-all">
           <li className="m-3 hover:text-yellow-50 transition duration-300">
-            Currently, I am learning ReactJS
+            Learning ReactJS ⚛️
           </li>
           <li className="m-3 hover:text-yellow-50 transition duration-300">
-            I also do Music Production
+            Music Production 🎵
           </li>
           <li className="m-3 hover:text-yellow-50 transition duration-300">
-            I enjoy exploring new technologies
+            Exploring new technologies 🧑🏻‍💻
           </li>
           <li className="m-3 hover:text-yellow-50 transition duration-300">
             Thinking about Web3 🤔

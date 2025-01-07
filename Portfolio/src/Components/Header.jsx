@@ -65,6 +65,9 @@ export default function Example() {
           <a href="#about" className="text-sm/6 font-semibold text-gray-200 hover:text-blue-300">
             About
           </a>
+          <a href="#skills" className="text-sm/6 font-semibold text-gray-200 hover:text-blue-300">
+            Skills
+          </a>
           <a href="#projects" className="text-sm/6 font-semibold text-gray-200 hover:text-blue-300">
             Projects
           </a>
@@ -73,9 +76,9 @@ export default function Example() {
           </a>
         </PopoverGroup>
       </nav>
-      <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden">
+      <Dialog open={mobileMenuOpen} onClose={setMobileMenuOpen} className="lg:hidden font-mono">
         <div className="fixed inset-0 z-10" />
-        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-blue-900 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+        <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-[#273759] px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">My Portfolio</span>
@@ -95,25 +98,31 @@ export default function Example() {
               <div className="space-y-2 py-6">
                 <a
                   href="#home"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#172554]"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
                 >
                   Home
                 </a>
                 <a
                   href="#about"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#172554]"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
                 >
                   About
                 </a>
                 <a
+                  href="#skills"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
+                >
+                  Skills
+                </a>
+                <a
                   href="#projects"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#172554]"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
                 >
                   Projects
                 </a>
                 <a
                   href="#contact"
-                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#172554]"
+                  className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
                 >
                   Contact
                 </a>
