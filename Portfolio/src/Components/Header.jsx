@@ -38,6 +38,10 @@ const callsToAction = [
 export default function Example() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+  const clicked = () => {
+    setMobileMenuOpen(false);
+  }
+
   return (
     <header className="sticky top-0 backdrop-blur-lg">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
@@ -99,30 +103,35 @@ export default function Example() {
                 <a
                   href="#home"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
+                  onClick={clicked}
                 >
                   Home
                 </a>
                 <a
                   href="#about"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
+                  onClick={clicked}
                 >
                   About
                 </a>
                 <a
                   href="#skills"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
+                  onClick={clicked}
                 >
                   Skills
                 </a>
                 <a
                   href="#projects"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
+                  onClick={clicked}
                 >
                   Projects
                 </a>
                 <a
                   href="#contact"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-200 hover:bg-[#202d48]"
+                  onClick={clicked}
                 >
                   Contact
                 </a>
