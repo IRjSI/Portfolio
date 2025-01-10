@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
+const { nextui } = require("@nextui-org/react");
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,jsx,tsx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}"
   ],
   theme: {
     extend: {
+      
       fontFamily: {
         dancing: ['Dancing Script', 'cursive', 'EB Garamond'],
         montserrat: ['Montserrat'],
@@ -40,9 +43,7 @@ export default {
       },
     },
   },
-  plugins: [
-    // Uncomment the next line if you need the `tailwindcss-textshadow` plugin
-    // require('tailwindcss-textshadow'),
-  ],
+  darkMode: "class",
+  plugins: [nextui()]
 };
 

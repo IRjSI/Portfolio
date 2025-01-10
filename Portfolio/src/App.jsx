@@ -12,8 +12,10 @@ function App() {
 
   return (
     <div className='p-4 font-mono'>
+      
       <Header />
       {/* <Outlet /> */}
+      
       <Home />
       <About />
       <Skills />
