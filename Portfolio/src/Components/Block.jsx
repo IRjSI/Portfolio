@@ -1,11 +1,13 @@
 import React from 'react'
 
-function Block({name,className=''}) {
+function Block({name,className='',href='#'}) {
   return (
     <div>
-      <div className={`w-full bg-[#2b3a58] h-full min-h-[100px] rounded-md hover:bg-[#2b3c5f] text-white p-2 shadow-[#2e3853] shadow-2xl flex justify-center items-center ${className}`}>
-          <p className='text-xl '>{name}</p>
-      </div>
+      <a href={`${href}`}>
+        <div className={`w-full bg-[#2b3a58] bg-opacity-10 backdrop-blur-2xl border-1 border-white h-full min-h-[100px] rounded-md hover:rounded-sm transition-all hover:transition-all hover:bg-[#00000f] text-white p-2 shadow-[#42556b86] shadow-md flex justify-center items-center ${className}`}>
+            <p className='text-xl'>{name}</p>
+        </div>
+      </a>
     </div>
   )
 }

@@ -13,8 +13,8 @@ function Contact() {
   return (
     <>
     <div id="contact" className='p-4'>
-      <p className='text-yellow-300 text-5xl text-center m-8 font-raleway mb-20 '>
-        <p className='inline-block relative transition-all duration-300 hover:transition-all before:-translate-x-1/2 hover:before:w-full before:absolute before:left-1/2 before:bottom-[-2px] before:w-0 before:h-[2px] before:bg-yellow-300 before:transition-all before:duration-500'>
+      <p className='text-blue-400 text-5xl text-center m-8 font-raleway mb-20 '>
+        <p className='inline-block relative transition-all duration-300 hover:transition-all before:-translate-x-1/2 hover:before:w-full before:absolute before:left-1/2 before:bottom-[-2px] before:w-0 before:h-[2px] before:bg-blue-400 before:transition-all before:duration-500'>
           Contact
         </p>
       </p>

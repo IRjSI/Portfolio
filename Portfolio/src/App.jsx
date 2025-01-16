@@ -12,8 +12,9 @@ function App() {
 
   return (
     <div className='p-4 font-mono'>
-      
+      <div className='bg-violet-500 w-64 h-96 opacity-15 blur-3xl absolute'></div>
       <Header />
+      <div className='bg-blue-800 w-64 h-96 opacity-15 blur-3xl absolute right-0'></div>
       {/* <Outlet /> */}
       
       <Home />
