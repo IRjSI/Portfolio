@@ -25,9 +25,9 @@ function Projects() {
       
       <div className="text-white text-center text-2xl sm:text-3xl grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 items-center justify-center p-4 px-24">
     
-        <Block href='ltpronounce.vercel.app' name={'Learn Pronunciation'} />
-        <Block href='weatherwebb.vercel.app' name={'Weather App'} />
-        <Block href='ltpronounce.vercel.app' name={'Dictionary'} />
+        <Block href='https://ltpronounce.vercel.app' name={'Dictionary'} />
+        <Block href='https://weatherwebb.vercel.app' name={'Weather App'} />
+        <Block href='https://movies-finderr.vercel.app' name={'Movies Finder'} />
         <Block name={'Random Quotes Generator'} />
         <Block name={'Clicks Per Second'} />
         <span className='flex justify-center sm:hidden' onClick={moreProjects}>
